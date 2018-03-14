@@ -1,0 +1,244 @@
+body {
+    background: #fdba79;
+    width: 95%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 56px;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+td {
+    padding-right: 8px;
+}
+
+nav ul {
+    margin-top: 120px;
+    color: white;
+    float: right;
+    list-style-type: none;
+}
+
+aside {
+    overflow: auto;
+    margin: 1rem 0;
+    display: inline-block;
+    width: 12rem;
+    height: 40rem;
+    border: #ffea00 solid;
+    float: left;
+    background-color: #ff9e3f;
+}
+
+nav li {
+    float: left;
+    padding: 5px 10px;
+    background-color: #fdba79;
+    border: 3px solid #ffea00;
+    border-radius: 8px 8px 0 0;
+}
+
+nav li:hover {
+    background-color: #A4BA10;
+    text-decoration: underline;
+}
+
+nav li:last-child {
+    border-left: 2px solid #ffea00;
+    border-radius: 8px 0 0 0;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    height: 150px;
+    position: relative;
+    border: #ffea00 5px solid;
+}
+
+thead {
+    text-align: center;
+    background: #ff9e3f;
+    border: #ff9e3f solid;
+}
+
+tbody {
+    text-align: center;
+    border: #ff9e3f solid;
+}
+
+tbody td {
+    padding: 0 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background: #FFFF75;
+}
+
+table img {
+    width: 50px;
+}
+
+.catalogusTable {
+    margin-bottom: 1rem;
+    min-width: 300px;
+    width: 100%;
+    clear: both;
+    border: #ff9e3f solid;
+}
+
+main {
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+}
+
+.uitleningMain {
+    text-align: center;
+    margin: auto;
+    width: 60%
+}
+
+.indexSection {
+    overflow: hidden;
+    margin-left: 15rem;
+    width: 50%;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    width: 95%;
+    padding: 18px 0;
+    background-color: #ff9e3f;
+    color: black;
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.backbutton {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 15px;
+    border: #ffea00 5px solid;
+    border-radius: 12px;
+    width: 10%;
+    background-color: #ff9e3f;
+    padding: 5px 15px;
+}
+
+.backbutton:hover {
+    background-color: #A4BA10;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.maps {
+    width: 350px;
+}
+
+.catalogusMain {
+    margin: 0 10%;
+    text-align: center;
+    width: 80%;
+}
+
+.catalogusNav {
+    overflow: hidden;
+    text-align: center;
+}
+
+.catalogusNav ul {
+    margin: 1rem 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.catalogusNav li {
+    background: #ff9e3f;
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    padding: 10px;
+    border: 5px solid #ffea00;
+    border-bottom: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.catalogusNav li:hover {
+    background-color: #A4BA10;
+    text-decoration: underline;
+}
+
+.nieuwsartikel h5 {
+    margin: 0 0 0 5px;
+}
+
+.catalogusNav li.selected {
+    background-color: #A4BA10;
+}
+
+.selected {
+    background-color: #A4BA10;
+}
+
+.nieuwsartikel {
+    padding: 0 5px;
+    border-top: #ffea00 solid;
+    font-size: 12px;
+}
+
+.nieuwBoek {
+    box-sizing: border-box;
+    float: left;
+    width: 20rem;
+    min-width: 250px;
+    min-height: 330px;
+    margin: 15px;
+    border: 2px solid #ff9e3f;
+    box-shadow: 5px 5px #b2bcc6;
+}
+
+.nieuwBoek h5,
+h6 {
+    text-align: center;
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.nieuwBoek img {
+    max-width: 30%;
+    margin: 5px;
+    float: left;
+}
+
+.nieuwBoek p {
+    padding: 5px;
+    clear: both;
+}
