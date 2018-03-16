@@ -46,14 +46,14 @@ td {
     width: 100%
 }
 
-.navlist,
-.navlist li {
+.navlist {
+    border: solid 3px #ffea00;
+    transform: translateY(-20px);
     display: none;
     list-style-type: none;
     list-style-position: inside;
     border-radius: 6px;
-    padding: 5px 0;
-
+    padding: 0;
 }
 
 li:hover {
@@ -271,11 +271,13 @@ h6 {
         margin-top: 100px;
     }
     .navlist {
-        transform: translateY(1px) translateX(3px);
+        transform: translateY(6px) translateX(3px);
+        box-sizing: border-box;
         color: white;
         float: right;
         list-style-type: none;
         display: block;
+        border: none;
     }
     .navlist li {
         display: block;
@@ -289,15 +291,16 @@ h6 {
         border-left: 2px solid #ffea00;
         border-radius: 8px 0 0 0;
     }
-    .topnav:hover{
-        width:100%;
+    .topnav:hover {
+        width: 100%;
     }
     .topnav:hover .navlist {
-        transform: translateY(1px) translateX(3px);
+        transform: translateY(6px) translateX(3px);
         color: white;
         float: right;
         list-style-type: none;
         display: block;
+        width: auto;
     }
 
     .navlist {
@@ -321,5 +324,17 @@ h6 {
         overflow: hidden;
         margin-left: 15rem;
         width: 50%;
+    }
+    form {
+        margin: 25px;
+    }
+    input[type=text] {
+        border: 1px solid #999;
+        border-radius: 10px;
+        width: 35%;
+        height: 21px;
+        margin-bottom: 5px;
+
+        -webkit-appearance: none;
     }
 }
