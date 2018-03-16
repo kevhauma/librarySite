@@ -264,11 +264,77 @@ h6 {
     clear: both;
 }
 
+
+.suggestieMain article {
+    box-sizing: border-box;
+    float: left;
+    width: 20rem;
+    min-width: 250px;
+    min-height: 330px;
+    margin: 15px;
+    border: 2px solid #ff9e3f;
+    box-shadow: 5px 5px #b2bcc6;
+}
+.suggestieMain article img{
+    max-width: 30%;
+    margin: 5px;
+    float: left;
+}
+.suggestieMain article h5,h6{    
+    text-align: center;
+    margin: 0;
+    padding: 5px 5px;
+}
+.suggestieMain article p{
+    padding: 5px;
+    clear: both;
+}
+.suggestieMain article section{
+    padding: 5px;
+    clear: both;
+}
+.rating{
+    float: left;
+    width: 20px;
+}
+
+
+form {
+    display: inline-block;
+    margin: 25px;
+    width: auto%
+}
+
+label{
+    display: block;
+    height: 10px;
+    margin-right:25px;
+}
+button{
+    clear:both;
+}
+button:hover{
+     box-shadow: 3px 5px 10px #888888;
+}
+form section{
+    float: left;
+}
+input, select, button{    
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 80%;
+    height: 21px;
+    margin-bottom: 5px;
+}
+
 @media (min-width:610px) {
     .topnav {
         display: block;
         position: absolute;
         margin-top: 100px;
+    }
+    h3{
+        clear:both;
     }
     .navlist {
         transform: translateY(6px) translateX(3px);
@@ -302,7 +368,6 @@ h6 {
         display: block;
         width: auto;
     }
-
     .navlist {
         display: block;
     }
@@ -324,17 +389,5 @@ h6 {
         overflow: hidden;
         margin-left: 15rem;
         width: 50%;
-    }
-    form {
-        margin: 25px;
-    }
-    input[type=text] {
-        border: 1px solid #999;
-        border-radius: 10px;
-        width: 35%;
-        height: 21px;
-        margin-bottom: 5px;
-
-        -webkit-appearance: none;
     }
 }
