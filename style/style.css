@@ -41,7 +41,6 @@ td {
 .widescreen li {
     float: left;
     padding: 5px 10px;
-    background-color: #ff9e3f;
     border: 3px solid #ffea00;
     border-bottom: none;
     border-radius: 8px 8px 0 0;
@@ -58,21 +57,22 @@ td {
     margin-top: 150px;
 }
 .dropdownButton:hover .dropdown{
-    position: absolute;
-    transform: translateY(-20px);
-    margin:0;
-    border: solid yellow 3px;
     display:block;
 }
 .dropdown{
-    margin: 0 25%;
-    width:50%;
+    transform: translateY(-20px);
+    margin:0;
+    border: solid yellow 3px;
+    background: #ff9e3f;
+    padding:5px 15px;
+    box-sizing: border-box;
+    width:100%;
     display:none;
 }
-.dropdownButton:hover .dropdown li{
-    margin: 0;
-    list-style: none;
+.dropdown ul, .dropdown li{
     list-style-type: none;
+    list-style-position: inside;    
+    border-radius: 6px;
     
 }
 
@@ -192,7 +192,9 @@ h6 {
     overflow: hidden;
     text-align: center;
 }
-
+li{
+    background-color: #ff9e3f;
+}
 .catalogusNav ul {
     margin: 1rem 0;
     padding: 0;
