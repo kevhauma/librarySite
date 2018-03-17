@@ -1,0 +1,40 @@
+.indexSection {
+    margin-left: 20px;
+    width: 100%;
+}
+
+aside {
+    display: none;
+}
+
+.maps {
+    width: 350px;
+}
+
+.nieuwsartikel {
+    padding: 0 5px;
+    border-top: #ffea00 solid;
+    font-size: 12px;
+}
+
+.nieuwsartikel h5 {
+    margin: 0 0 0 5px;
+}
+
+@media (min-width:610px) {
+    aside {
+        overflow: auto;
+        margin: 1rem 0;
+        display: inline-block;
+        width: 12rem;
+        height: 40rem;
+        border: #ffea00 solid;
+        float: left;
+        background-color: #ff9e3f;
+    }
+    .indexSection {
+        overflow: hidden;
+        margin-left: 15rem;
+        width: 50%;
+    }
+}

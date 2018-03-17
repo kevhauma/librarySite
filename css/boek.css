@@ -1,0 +1,47 @@
+.nieuwBoek {
+    box-sizing: border-box;
+    float: left;
+    width: 20rem;
+    min-width: 250px;
+    min-height: 330px;
+    margin: 15px;
+    border: 2px solid #ff9e3f;
+    box-shadow: 5px 5px #b2bcc6;
+}
+
+
+
+.nieuwBoek img {
+    max-width: 30%;
+    margin: 5px;
+    float: left;
+}
+
+
+
+.suggestieMain article {
+    box-sizing: border-box;
+    float: left;
+    width: 20rem;
+    min-width: 250px;
+    min-height: 330px;
+    margin: 15px;
+    border: 2px solid #ff9e3f;
+    box-shadow: 5px 5px #b2bcc6;
+}
+
+.suggestieMain article img {
+    max-width: 30%;
+    margin: 5px;
+    float: left;
+}
+
+.suggestieMain article section {
+    padding: 5px;
+    clear: both;
+}
+
+.rating {
+    float: left;
+    width: 20px;
+}

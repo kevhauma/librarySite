@@ -1,0 +1,172 @@
+body {
+    background: #fdba79;
+    width: 95%;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    height: 150px;
+    position: relative;
+    border: #ffea00 5px solid;
+}
+
+main {
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    width: 95%;
+    padding: 18px 0;
+    background-color: #ff9e3f;
+    color: black;
+    position: absolute;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 56px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+
+
+h5 {
+    font-size: 21px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+h5,h6 {
+    text-align: center;
+    margin: 0;
+    padding: 5px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+p {
+    padding: 5px;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+.topnav {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    display: block;
+    margin-top: 150px;
+}
+
+.topnav:hover .navlist {
+    display: block;
+    width: 100%
+}
+
+.navlist {
+    border: solid 3px #ffea00;
+    transform: translateY(-20px);
+    display: none;
+    list-style-type: none;
+    list-style-position: inside;
+    border-radius: 6px;
+    padding: 0;
+}
+
+li {
+    background-color: #ff9e3f;
+}
+
+li:hover {
+    background-color: #A4BA10;
+    text-decoration: underline;
+}
+
+
+.burgericon {
+    clear: both;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-top: 6px;
+}
+
+.selected {
+    background-color: #fdba79;
+}
+
+.selected:hover {
+    background-color: #fdba79;
+    text-decoration: none;
+}
+
+@media (min-width:610px) {
+    h3 {
+        clear: both;
+    }
+    .topnav {
+        display: block;
+        position: absolute;
+        margin-top: 100px;
+    }
+    .topnav:hover {
+        width: 100%;
+    }
+    .topnav:hover .navlist {
+        transform: translateY(6px) translateX(3px);
+        color: white;
+        float: right;
+        list-style-type: none;
+        display: block;
+        width: auto;
+    }
+    .navlist {
+        transform: translateY(6px) translateX(3px);
+        box-sizing: border-box;
+        color: white;
+        float: right;
+        list-style-type: none;
+        display: block;
+        border: none;
+    }
+    .navlist li {
+        display: block;
+        float: left;
+        padding: 5px 10px;
+        border: 3px solid #ffea00;
+        border-bottom: none;
+        border-radius: 8px 8px 0 0;
+    }
+    .navlist li:last-child {
+        border-left: 2px solid #ffea00;
+        border-radius: 8px 0 0 0;
+    }
+    .burgericon {
+        display: none;
+    }
+}

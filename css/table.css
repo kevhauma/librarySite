@@ -1,0 +1,34 @@
+.catalogusTable {
+    width=100%;
+    margin-bottom: 1rem;
+    min-width: 300px;
+}
+
+.smallTable {
+    clear: both;
+    border: #ff9e3f solid;
+    width: 50%
+}
+
+td {
+    padding-right: 8px;
+}
+
+table img {
+    width: 50px;
+}
+
+thead {
+    text-align: center;
+    background: #ff9e3f;
+    border: #ff9e3f solid;
+}
+
+tbody {
+    text-align: center;
+    border: #ff9e3f solid;
+}
+
+tbody tr:nth-child(odd) {
+    background: #FFFF75;
+}
